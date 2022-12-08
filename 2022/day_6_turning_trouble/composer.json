@@ -1,0 +1,17 @@
+{
+    "name": "hampusolsen/day_6_turning_trouble",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "TuningTrouble\\": "src/"
+        }
+    },
+    "scripts": {
+      "test": "phpunit -vvvvv"
+    },
+    "require": {
+        "symfony/console": "^6.2"
+    }
+}
